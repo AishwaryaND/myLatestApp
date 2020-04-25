@@ -33,6 +33,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage }
     ];
+      renderer.listenGlobal('document', 'mfpjsloaded', () => { WL.Analytics.enable();});
 
   }
 
