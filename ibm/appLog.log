@@ -479,3 +479,17 @@ Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:00:51 GMT+0
  Info | appDB | init | Sat Apr 25 2020, 23:11:38 GMT+0530 (India Standard Time) | App DB initialized
  Info | settingsDB | init | Sat Apr 25 2020, 23:11:38 GMT+0530 (India Standard Time) | SettingsDB initialized
 Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:11:38 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Error | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 23:12:04 GMT+0530 (India Standard Time) | Failed to import project configuration
+Error
+    at http://localhost:1212/dist/renderer.dev.js:154499:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:154456:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:154496:5)
+    at http://localhost:1212/dist/renderer.dev.js:154677:27
+    at _rejected (/Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:864:24)
+    at /Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:890:30
+    at Promise.when (/Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:808:41)
+    at /Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:624:44
+    at runSingle (/Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:137:13)
+    at flush (/Users/aishwaryadodmani/Desktop/latestMaster/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
