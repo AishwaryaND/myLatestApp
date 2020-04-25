@@ -1,0 +1,97 @@
+Project created on Sat Apr 25 2020, 21:26:42 GMT+0530 (India Standard Time)
+
+ Info | datasourceDB | init | Sat Apr 25 2020, 21:26:42 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 21:26:42 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 21:26:42 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 21:26:42 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Initialized all the DB's
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Project created on file system.
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Added app title to index.html
+ Info | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Added bundle id to config.xml
+ Info | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Copying over required plugins including mfp plugin
+ Info | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:43 GMT+0530 (India Standard Time) | Unzip start: 21:26:43
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:44 GMT+0530 (India Standard Time) | Copied over required app-build.json file
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:47 GMT+0530 (India Standard Time) | Copied over required node modules
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:47 GMT+0530 (India Standard Time) | Copied over required plugins
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:59 GMT+0530 (India Standard Time) | Copied over required cordova-plugin-mgp
+Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:59 GMT+0530 (India Standard Time) | Unzip finish: 21:26:59
+ Info | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:59 GMT+0530 (India Standard Time) | Installing dependencies and adding platform
+ Info | projectHandler | createIonicProject | Sat Apr 25 2020, 21:26:59 GMT+0530 (India Standard Time) | Running npm install
+ Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:03 GMT+0530 (India Standard Time) | npm 
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:03 GMT+0530 (India Standard Time) | WARN deprecated @angular/http@5.2.11: Package no longer supported. Use @angular/common instead, see https://angular.io/guide/deprecations#angularhttp
+
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:04 GMT+0530 (India Standard Time) | npm 
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:04 GMT+0530 (India Standard Time) | WARN deprecated sw-toolbox@3.6.0: Please migrate to Workbox: https://developers.google.com/web/tools/workbox/guides/migrations/migrate-from-sw
+
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:08 GMT+0530 (India Standard Time) | npm WARN deprecated rollup-plugin-commonjs@8.2.6: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-commonjs.
+
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:08 GMT+0530 (India Standard Time) | npm WARN deprecated rollup-plugin-node-resolve@3.0.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-node-resolve.
+
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | projectHandler | createIonicProject | Sat Apr 25 2020, 21:27:12 GMT+0530 (India Standard Time) | npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+Error
+    at http://localhost:4343/dist/renderer.dev.js:154473:28
+    at validateData (http://localhost:4343/dist/renderer.dev.js:154430:10)
+    at Object.error (http://localhost:4343/dist/renderer.dev.js:154470:5)
+    at Socket.<anonymous> (http://localhost:4343/dist/renderer.dev.js:19386:67)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
