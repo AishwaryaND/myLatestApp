@@ -399,3 +399,12 @@ Success | projectHandler | createIonicProject | Sat Apr 25 2020, 21:30:20 GMT+05
 Success | CreatingAppActions | createNewAppOnServer | Sat Apr 25 2020, 21:30:22 GMT+0530 (India Standard Time) | App created on the server successfully for 'ios' platform
  Info | ImportExportConfig | exportAppConfiguration | Sat Apr 25 2020, 21:30:22 GMT+0530 (India Standard Time) | Exported project configuration successfully
  Info | BuilderEditor | saveFile | Sat Apr 25 2020, 21:35:59 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.html
+ Info | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 21:43:44 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 21:44:17 GMT+0530 (India Standard Time) | Imported project configuration successfully
