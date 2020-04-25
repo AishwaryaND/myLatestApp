@@ -470,3 +470,114 @@ Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 22:48:24 GMT+0
  Info | appDB | init | Sat Apr 25 2020, 23:29:23 GMT+0530 (India Standard Time) | App DB initialized
  Info | settingsDB | init | Sat Apr 25 2020, 23:29:23 GMT+0530 (India Standard Time) | SettingsDB initialized
 Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:29:23 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 23:29:59 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:51:02 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 23:51:32 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 23:58:22 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 00:52:20 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sun Apr 26 2020, 00:52:51 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 01:03:09 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sun Apr 26 2020, 01:03:41 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sun Apr 26 2020, 01:41:09 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Error | CreatingAppActions | checkAndCreateNewAppOnServer | Sun Apr 26 2020, 01:41:18 GMT+0530 (India Standard Time) | Failed to fetch apps from the server
+Error
+    at http://localhost:1212/dist/renderer.dev.js:154613:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:154570:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:154610:5)
+    at http://localhost:1212/dist/renderer.dev.js:3064:31 Error | CreatingAppActions | checkAndCreateNewAppOnServer | Sun Apr 26 2020, 01:41:18 GMT+0530 (India Standard Time) | {
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Authorization": "Basic YWRtaW46YWRtaW4="
+    },
+    "method": "get",
+    "auth": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "url": "http://127.0.0.1:9080/mfpadmin/management-apis/2.0/runtimes/mfp/applications/com.aish/ios/1.0"
+  },
+  "request": {},
+  "response": {
+    "data": {
+      "productVersion": "8.0.0.00-20190926-092343",
+      "message": "FWLSE3000E: A server error was detected.",
+      "additionalMessage": "FWLSE3041E: No MBean found for MobileFirst project 'mfp'. Possibly the MobileFirst runtime web application for MobileFirst project 'mfp' is not running. If it is running, use JConsole to inspect the available MBeans. If it is not running, full error details are available in the log files of the server."
+    },
+    "status": 500,
+    "statusText": "Internal Server Error",
+    "headers": {
+      "cache-control": "no-cache, no-transform",
+      "connection": "Close",
+      "content-length": "444",
+      "content-type": "application/json",
+      "date": "Sat, 25 Apr 2020 20:11:18 GMT",
+      "x-powered-by": "Servlet/3.1"
+    },
+    "config": {
+      "transformRequest": {},
+      "transformResponse": {},
+      "timeout": 0,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Authorization": "Basic YWRtaW46YWRtaW4="
+      },
+      "method": "get",
+      "auth": {
+        "username": "admin",
+        "password": "admin"
+      },
+      "url": "http://127.0.0.1:9080/mfpadmin/management-apis/2.0/runtimes/mfp/applications/com.aish/ios/1.0"
+    },
+    "request": {}
+  }
+}
+Error
+    at http://localhost:1212/dist/renderer.dev.js:154613:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:154568:12)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:154610:5)
+    at http://localhost:1212/dist/renderer.dev.js:3065:31
