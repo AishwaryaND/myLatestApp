@@ -580,4 +580,4 @@ Error
     at http://localhost:1212/dist/renderer.dev.js:154613:28
     at validateData (http://localhost:1212/dist/renderer.dev.js:154568:12)
     at Object.error (http://localhost:1212/dist/renderer.dev.js:154610:5)
-    at http://localhost:1212/dist/renderer.dev.js:3065:31
+    at http://localhost:1212/dist/renderer.dev.js:3065:31 Info | ImportExportConfig | importConfiguration | Sun Apr 26 2020, 01:41:41 GMT+0530 (India Standard Time) | Imported project configuration successfully
