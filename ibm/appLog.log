@@ -438,3 +438,21 @@ Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 21:59:55 GMT+0
  Info | BuilderEditor | saveFile | Sat Apr 25 2020, 22:02:31 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.html
  Info | BuilderEditor | saveFile | Sat Apr 25 2020, 22:02:34 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.html
  Info | BuilderEditor | saveFile | Sat Apr 25 2020, 22:02:38 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.html
+ Info | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 22:08:13 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 22:08:40 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Sat Apr 25 2020, 22:14:02 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Sat Apr 25 2020, 22:14:33 GMT+0530 (India Standard Time) | Imported project configuration successfully
