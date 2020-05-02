@@ -1,8 +1,9 @@
 #page-home {
-  --theme-primary-color: #494a68;
+  --theme-primary-color: #494a68;vhvvbvbvbvbbvbvbhvvbvbvbvbbvbvbhvvbvbvbvbbvbvbhvvbvbvbvbbvbvbhvvbvbvbvbbvbvbhvvbvbvbvbbvbvbhvvbvbvbvbbvbvb
   background: var(--theme-primary-color);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
+home{
+home:scwa;
