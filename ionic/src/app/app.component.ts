@@ -5,6 +5,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { LiveUpdateProvider } from "../providers/live-update/live-update";
+import { SamplePage } from "../pages/sample/sample";
+import { Sample2Page } from "../pages/sample2/sample2";
+import { SamplePage } from "../pages/sample/sample";
 
 @Component({
   templateUrl: 'app.html'
@@ -31,8 +34,8 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage }
-    ];
+                        { title: 'Home', component: HomePage } ,{title:'sample', component: SamplePage} ,{title:'sample2', component: Sample2Page} ,{title:'sample', component: SamplePage}
+                      ];
       renderer.listenGlobal('document', 'mfpjsloaded', () => { WL.Analytics.enable();});
 
   }

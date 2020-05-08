@@ -7,12 +7,14 @@ import { HomePage } from '../pages/home/home';
 import { LiveUpdateProvider } from '../providers/live-update/live-update';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SamplePage } from "../pages/sample/sample";
+import { Sample2Page } from "../pages/sample2/sample2";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage
-  ],
+  ,SamplePage,Sample2Page],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
@@ -21,7 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage
-  ],
+  ,SamplePage,Sample2Page],
   providers: [
     StatusBar,
     SplashScreen,
