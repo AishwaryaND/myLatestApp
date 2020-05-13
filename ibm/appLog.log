@@ -1304,3 +1304,534 @@ Success | projectHandler | loadProjectDatabase | Fri May 08 2020, 13:49:36 GMT+0
  Info | settingsDB | init | Fri May 08 2020, 13:53:09 GMT+0530 (India Standard Time) | SettingsDB initialized
 Success | projectHandler | loadProjectDatabase | Fri May 08 2020, 13:53:09 GMT+0530 (India Standard Time) | Initialized all the DBs
  Info | ImportExportConfig | importConfiguration | Fri May 08 2020, 13:53:36 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:58:51 GMT+0530 (India Standard Time) | Adding platform: android
+Success | projectHandler | updateProject | Fri May 08 2020, 14:58:51 GMT+0530 (India Standard Time) | App details saved to WS file successfully
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:58:51 GMT+0530 (India Standard Time) | Platform android already exists.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:58:51 GMT+0530 (India Standard Time) | child process exited with code 0
+Success | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:58:51 GMT+0530 (India Standard Time) | Platform android added successfully
+Success | CreatingAppActions | createNewAppOnServer | Fri May 08 2020, 14:58:52 GMT+0530 (India Standard Time) | App created on the server successfully for 'android' platform
+ Info | ImportExportConfig | exportAppConfiguration | Fri May 08 2020, 14:58:52 GMT+0530 (India Standard Time) | Exported project configuration successfully
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 14:58:57 GMT+0530 (India Standard Time) | Removing platform: android
+Success | projectHandler | updateProject | Fri May 08 2020, 14:58:57 GMT+0530 (India Standard Time) | App details saved to WS file successfully
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 14:58:58 GMT+0530 (India Standard Time) | > cordova platform remove android --save
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:14 GMT+0530 (India Standard Time) | Adding platform: android
+Success | projectHandler | updateProject | Fri May 08 2020, 14:59:14 GMT+0530 (India Standard Time) | App details saved to WS file successfully
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:15 GMT+0530 (India Standard Time) | > cordova platform add android --save
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:16 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-android@^8.0.0
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:16 GMT+0530 (India Standard Time) | Adding android project...
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:16 GMT+0530 (India Standard Time) | Creating Cordova project for the Android platform:
+	Path: platforms/android
+	Package: com.aish
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:16 GMT+0530 (India Standard Time) | 	Name: myLatestApp
+	Activity: MainActivity
+	Android target: android-28
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Android project created with cordova-android@8.1.0
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-device" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-dialogs" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-globalization" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-keyboard" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:17 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-webview" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-device@2.0.2" already fetched, using that version.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-device" already installed on android.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-dialogs@2.0.1" already fetched, using that version.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-dialogs" already installed on android.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-globalization@1.11.0" already fetched, using that version.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-globalization" already installed on android.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-okhttp@2.0.0" already fetched, using that version.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-okhttp" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | MainActivity.java was backed up as MainActivity.original. A MobileFirst Platform Foundation version of MainActivity.java was added. If you have made changes in the original MainActivity.java, you need to merge them with the current MainActivity.java in the /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/platforms/android/app/src/main/java/com/aish directory.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:18 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp-analytics" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-mfp@8.0.2019090917" already fetched, using that version.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-mfp" already installed on android.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-okhttp" already installed on android.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Installing "cordova-plugin-splashscreen" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Installing "cordova-plugin-statusbar" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | Installing "cordova-plugin-whitelist" for android
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) | 
+               This plugin is only applicable for versions of cordova-android greater than 4.0. If you have a previous platform version, you do *not* need this plugin since the whitelist will be built in.
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:19 GMT+0530 (India Standard Time) |           
+
+ Info | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:20 GMT+0530 (India Standard Time) | child process exited with code 0
+Success | projectHandler | excuteAddPlatform | Fri May 08 2020, 14:59:20 GMT+0530 (India Standard Time) | Platform android added successfully
+Success | CreatingAppActions | createNewAppOnServer | Fri May 08 2020, 14:59:21 GMT+0530 (India Standard Time) | App created on the server successfully for 'android' platform
+ Info | ImportExportConfig | exportAppConfiguration | Fri May 08 2020, 14:59:21 GMT+0530 (India Standard Time) | Exported project configuration successfully
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 14:59:25 GMT+0530 (India Standard Time) | Removing platform: android
+Success | projectHandler | updateProject | Fri May 08 2020, 14:59:25 GMT+0530 (India Standard Time) | App details saved to WS file successfully
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 14:59:25 GMT+0530 (India Standard Time) | > cordova platform remove android --save
+
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 14:59:26 GMT+0530 (India Standard Time) | Removing android from cordova.platforms array in package.json
+
+ Info | IonicStudioUtils | updateAndroidNetworkConfig | Fri May 08 2020, 14:59:49 GMT+0530 (India Standard Time) | Succesfully updated android network security configuration
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:00 GMT+0530 (India Standard Time) | { Error: npm: Command failed with exit code 254 Error output:
+npm WARN registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?
+
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:00 GMT+0530 (India Standard Time) | npm WARN registry Using stale package data from https://registry.npmjs.org/ due to a request error during revalidation.
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/dot-prop
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/is-obj
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/compare-func
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/string.prototype.codepointat
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/properties-parser
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/android-versions
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/array-ify
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android
+npm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules
+npm ERR! path /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt
+npm ERR! code ENOENT
+npm ERR! errno -2
+npm ERR! syscall access
+npm ERR! enoent ENOENT: no such file or directory, access '/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/aishwaryadodmani/.npm/_logs/2020-05-08T09_30_00_938Z-debug.log
+    at ChildProcess.whenDone (/Users/aishwaryadodmani/Library/Application Support/IBM Digital App Builder/prereqs/cordova/node_modules/cordova-common/src/superspawn.js:135:23)
+    at ChildProcess.emit (events.js:198:13)
+
+ Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:01 GMT+0530 (India Standard Time) |     at maybeClose (internal/child_process.js:982:16)
+    at Socket.stream.socket.on (internal/child_process.js:389:11)
+    at Socket.emit (events.js:198:13)
+    at Pipe._handle.close (net.js:606:12)
+  stderr:
+   'npm WARN registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?\nnpm WARN registry Using stale package data from https://registry.npmjs.org/ due to a request error during revalidation.\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/dot-prop\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/is-obj\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/compare-func\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/string.prototype.codepointat\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/properties-parser\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/android-versions\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/array-ify\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android\nnpm WARN checkPermissions Missing write access to /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules\nnpm ERR! path /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt\nnpm ERR! code ENOENT\nnpm ERR! errno -2\nnpm ERR! syscall access\nnpm ERR! enoent ENOENT: no such file or directory, access \'/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/cordova-android/node_modules/nopt\'\nnpm ERR! enoent This is related to npm not being able to find a file.\nnpm ERR! enoent \n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /Users/aishwaryadodmani/.npm/_logs/2020-05-08T09_30_00_938Z-debug.log\n',
+  code: 254 }
+
+ Error | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:01 GMT+0530 (India Standard Time) | [ERROR] An error occurred while running subprocess cordova.
+        
+        cordova platform remove android --save exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1:257408)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:01 GMT+0530 (India Standard Time) | child process exited with code 1
+ Error | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:01 GMT+0530 (India Standard Time) | Error removing platform for android
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at ChildProcess.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1:257621)
+    at ChildProcess.emit (events.js:208:15)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Pipe.<anonymous> (net.js:588:12) Info | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:04 GMT+0530 (India Standard Time) | child process exited with code 0
+Success | projectHandler | excuteRemovePlatform | Fri May 08 2020, 15:00:04 GMT+0530 (India Standard Time) | Platform android removed successfully
+Success | CreatingAppActions | deleteAppOnServer | Fri May 08 2020, 15:00:04 GMT+0530 (India Standard Time) | App deleted from the server
+Success | CreatingAppActions | deleteAppOnServer | Fri May 08 2020, 15:00:04 GMT+0530 (India Standard Time) | {
+  "data": {
+    "transaction": {
+      "id": 19362,
+      "type": "DELETE_APPLICATION_ENV_VERSION",
+      "status": "SUCCESS",
+      "project": {
+        "name": "mfp"
+      },
+      "timeCreated": "2020-05-08T09:30:04.108Z",
+      "timeUpdated": "2020-05-08T09:30:04.158Z",
+      "userName": "admin",
+      "appServerId": "Liberty",
+      "errors": [],
+      "warnings": [],
+      "description": {
+        "name": "com.aish$android$1.0",
+        "type": "APP_DESCRIPTOR"
+      }
+    },
+    "ok": true,
+    "productVersion": "8.0.0.00-20190926-092343"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "cache-control": "no-cache, no-transform",
+    "content-length": "387",
+    "content-type": "application/json",
+    "date": "Fri, 08 May 2020 09:30:04 GMT",
+    "x-powered-by": "Servlet/3.1"
+  },
+  "config": {
+    "transformRequest": {},
+    "transformResponse": {},
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Authorization": "Basic YWRtaW46YWRtaW4="
+    },
+    "method": "delete",
+    "auth": {
+      "username": "admin",
+      "password": "admin"
+    },
+    "url": "http://127.0.0.1:9080/mfpadmin/management-apis/2.0/runtimes/mfp/applications/com.aish/android/1.0?async=false"
+  },
+  "request": {}
+}
+ Info | ImportExportConfig | exportConfiguration | Fri May 08 2020, 15:00:04 GMT+0530 (India Standard Time) | Exported project configuration successfully
+ Info | IonicStudioUtils | updateAndroidNetworkConfig | Fri May 08 2020, 15:00:10 GMT+0530 (India Standard Time) | Succesfully updated android network security configuration
+ Info | IonicStudioUtils | updateAndroidNetworkConfig | Fri May 08 2020, 15:00:27 GMT+0530 (India Standard Time) | Succesfully updated android network security configuration
+ Info | RepairProject | npmInstall | Fri May 08 2020, 15:01:56 GMT+0530 (India Standard Time) | Running npm install
+ Info | RepairProject | npmInstall | Fri May 08 2020, 15:02:11 GMT+0530 (India Standard Time) | up to date in 14.03s
+
+Success | RepairProject | npmInstall | Fri May 08 2020, 15:02:31 GMT+0530 (India Standard Time) | All done! You are ready to rock and roll
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:05 GMT+0530 (India Standard Time) | Removing and adding platforms
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:06 GMT+0530 (India Standard Time) | > cordova platform remove ios --save
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:08 GMT+0530 (India Standard Time) | Removing ios from cordova.platforms array in package.json
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:43 GMT+0530 (India Standard Time) | > cordova platform add ios --save
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:44 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-ios@^5.0.0
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:46 GMT+0530 (India Standard Time) | Failed to fetch platform cordova-ios@^5.0.0
+Probably this is either a connection problem, or platform spec is incorrect.
+Check your connection and platform name/version/URL.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:46 GMT+0530 (India Standard Time) | Error: npm: Command failed with exit code 1 Error output:
+npm WARN registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?
+npm WARN registry Using stale package data from https://registry.npmjs.org/ due to a request error during revalidation.
+npm ERR! code ENOTFOUND
+npm ERR! errno ENOTFOUND
+npm ERR! network request to https://registry.npmjs.org/cordova-ios/-/cordova-ios-5.1.1.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network 
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/aishwaryadodmani/.npm/_logs/2020-05-08T09_33_46_191Z-debug.log
+
+ Error | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:46 GMT+0530 (India Standard Time) | [ERROR] An error occurred while running subprocess cordova.
+        
+        cordova platform add ios --save exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1833:15146)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:03:46 GMT+0530 (India Standard Time) | Failed to rebuild platform
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at ChildProcess.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:1833:15359)
+    at ChildProcess.emit (events.js:208:15)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:203:13)
+    at Pipe.<anonymous> (net.js:588:12) Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:29 GMT+0530 (India Standard Time) | Removing and adding platforms
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:29 GMT+0530 (India Standard Time) | > cordova platform remove ios --save
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:38 GMT+0530 (India Standard Time) | > cordova platform add ios --save
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:39 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-ios@^5.0.0
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:52 GMT+0530 (India Standard Time) | Adding ios project...
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | Creating Cordova project for the iOS platform:
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | 	Path: platforms/ios
+	Package: com.aish
+	Name: myLatestApp
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | iOS project created with cordova-ios@5.1.1
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | Installing "cordova-plugin-device" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | Installing "cordova-plugin-dialogs" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | Installing "cordova-plugin-globalization" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:53 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-keyboard" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:54 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-webview" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:55 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:55 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-device@2.0.2" already fetched, using that version.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:55 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-device" already installed on ios.
+Plugin dependency "cordova-plugin-dialogs@2.0.1" already fetched, using that version.
+Dependent plugin "cordova-plugin-dialogs" already installed on ios.
+Plugin dependency "cordova-plugin-globalization@1.11.0" already fetched, using that version.
+Dependent plugin "cordova-plugin-globalization" already installed on ios.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | If you made changes to your AppDelegate.m file, manually merge AppDelegate.m.bak with the AppDelegate.m file that is provided with IBM MobileFirst Platform Foundation.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp-analytics" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-mfp@8.0.2019090917" already fetched, using that version.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-mfp" already installed on ios.
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Installing "cordova-plugin-okhttp" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Installing "cordova-plugin-splashscreen" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Installing "cordova-plugin-statusbar" for ios
+
+ Info | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:56 GMT+0530 (India Standard Time) | Installing "cordova-plugin-whitelist" for ios
+
+Success | RepairProject | reinstallPlatforms | Fri May 08 2020, 15:04:58 GMT+0530 (India Standard Time) | All done! You are ready to rock and roll
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Sip on your coffee while we prepare your app
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Running ionic cordova prepare... sit back and relax
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Updated bundle ID in config.xml.
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Updated version in config.xml.
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Updated MFP server URL in config.xml.
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | MFP server URL updated is : http://127.0.0.1:9080 
+ Info | IonicTopBar | prepareAppForPreview | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Config.xml is updated
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | Trying to shut down previous process
+ Info | updatePreviewState | undefined | Fri May 08 2020, 15:07:25 GMT+0530 (India Standard Time) | undefined
+ Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.264Z ionic:lib Terminal info: { tty: false, ci: false, windows: false }
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.267Z ionic:lib CLI global options: { _: [ 'cordova', 'run', 'ios' ], help: null, h: null, verbose: null, quiet: null, interactive: false, color: true, confirm: null, json: null, project: null, '--': [ '--buildFlag=-UseModernBuildSystem=0', '--verbose', '--no-interactive' ] }
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.611Z ionic:lib:project Project type from config: Ionic 2/3 (ionic-angular)
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.611Z ionic:lib:project Project details: { configPath: '/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/ionic.config.json', errors: [], context: 'app', type: 'ionic-angular' }
+2020-05-08T09:37:26.614Z ionic Context: { binPath: '/Users/aishwaryadodmani/Library/Application Support/IBM Digital App Builder/prereqs/ionic/node_modules/ionic/bin/ionic', libPath: '/Users/aishwaryadodmani/Library/Application Support/IBM Digital App Builder/prereqs/ionic/node_modules/ionic', execPath: '/Users/aishwaryadodmani/Desktop/myLatestApp/ionic', version: '4.12.0' }
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.680Z ionic:lib:integrations:cordova:config Using config.xml: /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/config.xml
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.719Z ionic:lib:telemetry Sending telemetry for command: 'ionic cordova run' [ 'ios',
+  '--interactive',
+  '--color',
+  '--',
+  '--buildFlag=-UseModernBuildSystem=0',
+  '--verbose',
+  '--no-interactive' ]
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | 2020-05-08T09:37:26.720Z ionic:lib:hooks Looking for ionic:build:before npm script.
+2020-05-08T09:37:26.721Z ionic:lib:project:ionic-angular:build Looking for ionic:build npm script.
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:26 GMT+0530 (India Standard Time) | > ionic-app-scripts build --target cordova --platform ios --buildFlag=-UseModernBuildSystem=0 --verbose --no-interactive
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  ionic-app-scripts 3.2.4 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  build dev started ... 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  clean started ... 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  clean finished in 6 ms 
+[15:07:29]  copy started ... 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  deeplinks started ... 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  deeplinks finished in 20 ms 
+
+ Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:29 GMT+0530 (India Standard Time) | [15:07:29]  transpile started ... 
+
+ Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) | [15:07:32]  typescript: src/app/app.component.ts, line: 8 
+[15:07:32]  typescript: src/app/app.component.ts, line: 10 
+[15:07:32]  ionic-app-script task: "build" 
+[15:07:32]  Error: Failed to transpile program 
+Error: Failed to transpile program
+    at new BuildError (/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/@ionic/app-scripts/dist/util/errors.js:16:28)
+    at /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/@ionic/app-scripts/dist/transpile.js:159:20
+    at new Promise (<anonymous>)
+    at transpileWorker (/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/@ionic/app-scripts/dist/transpile.js:107:12)
+    at Object.transpile (/Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/@ionic/app-scripts/dist/transpile.js:64:12)
+    at /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/node_modules/@ionic/app-scripts/dist/build.js:109:82
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) |             Duplicate identifier 'SamplePage'. 
+
+       L7:  import { LiveUpdateProvider } from "../providers/live-update/live-update";
+       L8:  import { SamplePage } from "../pages/sample/sample";
+       L9:  import { Sample2Page } from "../pages/sample2/sample2";
+
+            Duplicate identifier 'SamplePage'. 
+
+       L9:  import { Sample2Page } from "../pages/sample2/sample2";
+      L10:  import { SamplePage } from "../pages/sample/sample";
+
+
+ Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) | [ERROR] An error occurred while running subprocess ionic-app-scripts.
+        
+        ionic-app-scripts build --target cordova --platform ios --buildFlag=-UseModernBu... exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) | 2020-05-08T09:37:32.912Z ionic:utils-process onBeforeExit handler: process.exit received
+2020-05-08T09:37:32.912Z ionic:utils-process onBeforeExit handler: running 1 functions
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) | 2020-05-08T09:37:32.938Z ionic:utils-process onBeforeExit handler: exiting (exit code 1)
+
+Error
+    at file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174537
+    at f (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:173863)
+    at Object.error (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:5915:174419)
+    at Socket.<anonymous> (file:///private/var/folders/hd/6_mtptyd3471dzlsmbsz50nr0000gn/T/AppTranslocation/A3989BA1-E544-4A23-84C8-A0967922CB9A/d/IBM%20Digital%20App%20Builder.app/Contents/Resources/app.asar/dist/renderer.prod.js:4056:13246)
+    at Socket.emit (events.js:203:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | IonicTopBar | updatePreviewState | Fri May 08 2020, 15:07:32 GMT+0530 (India Standard Time) | Error: Preview on Simulator failed.
+ Info | projectHandler | loadProjectDatabase | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed May 13 2020, 11:08:35 GMT+0530 (India Standard Time) | Initialized all the DBs
