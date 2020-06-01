@@ -8,6 +8,11 @@ import { LiveUpdateProvider } from "../providers/live-update/live-update";
 import { SamplePage } from "../pages/sample/sample";
 import { Sample2Page } from "../pages/sample2/sample2";
 import { SamplePage } from "../pages/sample/sample";
+import { Sample2Page } from "../pages/sample2/sample2";
+import { Sample3Page } from "../pages/sample3/sample3";
+import { Sample4Page } from "../pages/sample4/sample4";
+import { Sample6Page } from "../pages/sample6/sample6";
+import { Sample8Page } from "../pages/sample8/sample8";
 
 @Component({
   templateUrl: 'app.html'
@@ -34,8 +39,8 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-                        { title: 'Home', component: HomePage } ,{title:'sample', component: SamplePage} ,{title:'sample2', component: Sample2Page} ,{title:'sample', component: SamplePage}
-                      ];
+                                                      { title: 'Home', component: HomePage } ,{title:'sample', component: SamplePage} ,{title:'sample2', component: Sample2Page} ,{title:'sample', component: SamplePage} ,{title:'sample2', component: Sample2Page} ,{title:'sample3', component: Sample3Page} ,{title:'sample4', component: Sample4Page} ,{title:'sample6', component: Sample6Page} ,{title:'sample8', component: Sample8Page}
+                                                    ];
       renderer.listenGlobal('document', 'mfpjsloaded', () => { WL.Analytics.enable();});
 
   }

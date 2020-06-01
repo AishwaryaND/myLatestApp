@@ -4,8 +4,8 @@ import { DataStore } from '../../app/dataStore';
 import {LiveUpdateProvider} from "../../providers/live-update/live-update";
 
 @Component({
-  selector: 'page-sample2',
-  templateUrl: 'sample2.html'
+  selector: 'page-sample6',
+  templateUrl: 'sample6.html'
 })
 
 @NgModule({
@@ -14,7 +14,7 @@ import {LiveUpdateProvider} from "../../providers/live-update/live-update";
   ]
 })
 
-export class Sample2Page {
+export class Sample6Page {
 
   constructor(public navCtrl: NavController, public dataStore:DataStore, public liveUpdateService:LiveUpdateProvider) {
 

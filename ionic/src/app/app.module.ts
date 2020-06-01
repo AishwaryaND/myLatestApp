@@ -9,12 +9,16 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { SamplePage } from "../pages/sample/sample";
 import { Sample2Page } from "../pages/sample2/sample2";
+import { Sample3Page } from "../pages/sample3/sample3";
+import { Sample4Page } from "../pages/sample4/sample4";
+import { Sample6Page } from "../pages/sample6/sample6";
+import { Sample8Page } from "../pages/sample8/sample8";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage
-  ,SamplePage,Sample2Page],
+  ,SamplePage,Sample2Page,Sample3Page,Sample4Page,Sample6Page,Sample8Page],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
@@ -23,7 +27,7 @@ import { Sample2Page } from "../pages/sample2/sample2";
   entryComponents: [
     MyApp,
     HomePage
-  ,SamplePage,Sample2Page],
+  ,SamplePage,Sample2Page,Sample3Page,Sample4Page,Sample6Page,Sample8Page],
   providers: [
     StatusBar,
     SplashScreen,
