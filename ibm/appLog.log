@@ -2641,3 +2641,173 @@ Success | projectHandler | loadProjectDatabase | Tue May 05 2020, 13:33:42 GMT+0
  Info | settingsDB | init | Tue May 05 2020, 14:11:14 GMT+0530 (India Standard Time) | SettingsDB initialized
 Success | projectHandler | loadProjectDatabase | Tue May 05 2020, 14:11:14 GMT+0530 (India Standard Time) | Initialized all the DBs
  Info | ImportExportConfig | importConfiguration | Tue May 05 2020, 14:11:42 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:03:50 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Tue Jun 02 2020, 12:03:50 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:03:51 GMT+0530 (India Standard Time) | Initialized all the DBs
+Success | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:14 GMT+0530 (India Standard Time) | Copied over required node modules
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:14 GMT+0530 (India Standard Time) | Running npm install
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:44 GMT+0530 (India Standard Time) | added 9 packages from 6 contributors, removed 1 package, updated 3 packages and audited 1157 packages in 28.151s
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:44 GMT+0530 (India Standard Time) | found 72 vulnerabilities (20 low, 18 moderate, 34 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:45 GMT+0530 (India Standard Time) | > cordova platform add ios@5.0.0 --save
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:45 GMT+0530 (India Standard Time) | > cordova platform add android --save
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:48 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-ios@5.0.0
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:48 GMT+0530 (India Standard Time) | Platform ios already added.
+
+ Error | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:49 GMT+0530 (India Standard Time) | [ERROR] An error occurred while running subprocess cordova.
+        
+        cordova platform add ios@5.0.0 --save exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161929:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161886:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161926:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:24277:43)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:49 GMT+0530 (India Standard Time) | Using cordova-fetch for cordova-android@8.1.0
+Adding android project...
+Creating Cordova project for the Android platform:
+	Path: platforms/android
+	Package: com.aish
+	Name: myLatestApp
+	Activity: MainActivity
+	Android target: android-28
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:49 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:49 GMT+0530 (India Standard Time) | Subproject Path: app
+Android project created with cordova-android@8.1.0
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:50 GMT+0530 (India Standard Time) | Installing "cordova-plugin-device" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:50 GMT+0530 (India Standard Time) | Installing "cordova-plugin-dialogs" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:51 GMT+0530 (India Standard Time) | Installing "cordova-plugin-globalization" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:51 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-keyboard" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:51 GMT+0530 (India Standard Time) | Installing "cordova-plugin-ionic-webview" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:52 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+Subproject Path: app
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:52 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:52 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-device@2.0.2" already fetched, using that version.
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:52 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-device" already installed on android.
+Plugin dependency "cordova-plugin-dialogs@2.0.1" already fetched, using that version.
+Dependent plugin "cordova-plugin-dialogs" already installed on android.
+Plugin dependency "cordova-plugin-globalization@1.11.0" already fetched, using that version.
+Dependent plugin "cordova-plugin-globalization" already installed on android.
+Plugin dependency "cordova-plugin-okhttp@2.0.0" already fetched, using that version.
+Installing "cordova-plugin-okhttp" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | Subproject Path: app
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | MainActivity.java was backed up as MainActivity.original. A MobileFirst Platform Foundation version of MainActivity.java was added. If you have made changes in the original MainActivity.java, you need to merge them with the current MainActivity.java in the /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/platforms/android/app/src/main/java/com/aish directory.
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:53 GMT+0530 (India Standard Time) | Installing "cordova-plugin-mfp-analytics" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:54 GMT+0530 (India Standard Time) | Plugin dependency "cordova-plugin-mfp@8.0.2019090917" already fetched, using that version.
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:54 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-mfp" already installed on android.
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:54 GMT+0530 (India Standard Time) | Subproject Path: CordovaLib
+Subproject Path: app
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:54 GMT+0530 (India Standard Time) | Dependent plugin "cordova-plugin-okhttp" already installed on android.
+Installing "cordova-plugin-splashscreen" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:55 GMT+0530 (India Standard Time) | Installing "cordova-plugin-statusbar" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:55 GMT+0530 (India Standard Time) | Installing "cordova-plugin-whitelist" for android
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:55 GMT+0530 (India Standard Time) | 
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:55 GMT+0530 (India Standard Time) |                This plugin is only applicable for versions of cordova-android greater than 4.0. If you have a previous platform version, you do *not* need this plugin since the whitelist will be built in.
+          
+
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:57 GMT+0530 (India Standard Time) | Attempting to install In-App feedback analytics plugin
+ Info | LandingPage | buildProjectIfNeeded | Tue Jun 02 2020, 12:04:58 GMT+0530 (India Standard Time) | > cordova plugin add cordova-plugin-mfp-analytics --save
+
+ Info | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:07:23 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Tue Jun 02 2020, 12:07:29 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | [object Object] | undefined | Tue Jun 02 2020, 12:07:53 GMT+0530 (India Standard Time) | undefined
+Success | IonicFsHandler | runCodePageScripts | Tue Jun 02 2020, 12:07:53 GMT+0530 (India Standard Time) | Successfully ran npm install
+Success | IonicFsHandler | runCodePageScripts | Tue Jun 02 2020, 12:07:53 GMT+0530 (India Standard Time) | Successfully installed npm modules and added Cordova plugins
+ Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:12:27 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.html
+ Info | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:15:15 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:15:28 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | ImportExportConfig | importConfiguration | Tue Jun 02 2020, 12:15:31 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:28:03 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:28:09 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | ImportExportConfig | importConfiguration | Tue Jun 02 2020, 12:28:12 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | [object Object] | undefined | Tue Jun 02 2020, 12:31:54 GMT+0530 (India Standard Time) | undefined
+Success | IonicFsHandler | runCodePageScripts | Tue Jun 02 2020, 12:31:54 GMT+0530 (India Standard Time) | Successfully ran npm install
+Success | IonicFsHandler | runCodePageScripts | Tue Jun 02 2020, 12:31:54 GMT+0530 (India Standard Time) | Successfully installed npm modules and added Cordova plugins
+ Info | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Tue Jun 02 2020, 12:43:53 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Error | ImportExportConfig | importConfiguration | Tue Jun 02 2020, 12:43:54 GMT+0530 (India Standard Time) | Failed to import project configuration
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161929:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161886:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161926:5)
+    at http://localhost:1212/dist/renderer.dev.js:162107:27
+    at _rejected (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:864:24)
+    at /Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:890:30
+    at Promise.when (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:1142:31)
+    at Promise.promise.promiseDispatch (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:808:41)
+    at /Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:624:44
+    at runSingle (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:137:13)
+    at flush (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11) Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:44:54 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:44:54 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
