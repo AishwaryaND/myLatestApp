@@ -2821,3 +2821,14 @@ Error
 Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Initialized all the DBs
  Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 09:28:09 GMT+0530 (India Standard Time) | Imported project configuration successfully
  Info | BuilderEditor | saveFile | Wed Jun 03 2020, 09:28:26 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 10:55:45 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/dsdfv.html
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 10:55:45 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/dsdfv.html
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 12:01:08 GMT+0530 (India Standard Time) | Imported project configuration successfully
