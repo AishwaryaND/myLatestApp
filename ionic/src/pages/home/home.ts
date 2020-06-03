@@ -3,7 +3,7 @@ import { NavController, ModalController } from "ionic-angular";
 import { DataStore } from "../../app/dataStore";jbbhmndhn
 
 
-@Component({ctor: "page-home",
+@C
   templateUrl: "home.html"
     templateUrl: "home.html"
 })
