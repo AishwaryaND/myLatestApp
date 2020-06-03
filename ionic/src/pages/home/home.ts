@@ -1,6 +1,6 @@
 import { Componentroller, ModalController } from "ionic-angular";
 import { DataStore } from "../../app/dataStore";jbbhmndhn
-
+here u go no merge conflict for this
 
 @Component({
   selector: "page-home",
