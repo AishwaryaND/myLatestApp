@@ -2811,3 +2811,13 @@ Error
     at flush (/Users/aishwaryadodmani/Desktop/newMasterGitClone/mfp-rapidapp/app/node_modules2/mf-server-commands/node_modules/q/q.js:125:13)
     at processTicksAndRejections (internal/process/task_queues.js:75:11) Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:44:54 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
  Info | BuilderEditor | saveFile | Tue Jun 02 2020, 12:44:54 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:28:07 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 09:28:09 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 09:28:26 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
