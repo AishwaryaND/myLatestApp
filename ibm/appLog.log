@@ -2832,3 +2832,134 @@ Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 09:28:07 GMT+0
  Info | settingsDB | init | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | SettingsDB initialized
 Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 12:01:06 GMT+0530 (India Standard Time) | Initialized all the DBs
  Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 12:01:08 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 12:10:30 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 12:10:33 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | PluginManagement | onClick | Wed Jun 03 2020, 12:11:06 GMT+0530 (India Standard Time) | + cordova-plugin-device@2.0.2
+removed 1 package, updated 1 package and audited 1156 packages in 8.459s
+
+ Info | PluginManagement | onClick | Wed Jun 03 2020, 12:11:06 GMT+0530 (India Standard Time) | found 72 vulnerabilities (20 low, 18 moderate, 34 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+ Info | PluginManagement | onClick | Wed Jun 03 2020, 12:11:06 GMT+0530 (India Standard Time) | > cordova plugin add cordova-plugin-device@2.0.2 --save
+
+ Info | PluginManagement | onClick | Wed Jun 03 2020, 12:11:08 GMT+0530 (India Standard Time) | Plugin "cordova-plugin-device" already installed on android.
+
+ Info | PluginManagement | onClick | Wed Jun 03 2020, 12:11:08 GMT+0530 (India Standard Time) | Plugin "cordova-plugin-device" already installed on ios.
+Adding cordova-plugin-device to package.json
+
+Success | PluginManagement | onClick | Wed Jun 03 2020, 12:11:09 GMT+0530 (India Standard Time) | cordova-plugin-device installed
+ Error | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:14:24 GMT+0530 (India Standard Time) | npx: installed 98 in 11.129s
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161631:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161588:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161628:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33049:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:14:24 GMT+0530 (India Standard Time) | Cannot create a project named "newWebApp" because of npm naming restrictions:
+
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161631:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161588:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161628:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33049:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:14:24 GMT+0530 (India Standard Time) |   * name can no longer contain capital letters
+
+Please choose a different project name.
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161631:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161588:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161628:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33049:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Error | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:14:25 GMT+0530 (India Standard Time) | Failed to create project
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161631:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161588:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161628:5)
+    at ChildProcess.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33055:29)
+    at ChildProcess.emit (events.js:208:15)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5) Error | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:15:40 GMT+0530 (India Standard Time) | npx: installed 98 in 10.163s
+
+Error
+    at http://localhost:1212/dist/renderer.dev.js:161631:28
+    at validateData (http://localhost:1212/dist/renderer.dev.js:161588:10)
+    at Object.error (http://localhost:1212/dist/renderer.dev.js:161628:5)
+    at Socket.<anonymous> (http://localhost:1212/dist/renderer.dev.js:33049:27)
+    at Socket.emit (events.js:208:15)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:272:13)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17) Info | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:15:40 GMT+0530 (India Standard Time) | 
+Creating a new React app in /Users/aishwaryadodmani/Documents/aasss.
+
+ Info | CreateWebProject | createReactJSProject | Wed Jun 03 2020, 12:15:40 GMT+0530 (India Standard Time) | 
+
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:28:19 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 15:28:22 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 15:29:11 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 15:29:23 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:32:32 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 15:32:35 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:37:13 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 15:37:15 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:39:25 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 15:39:27 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Initializing DBs for workspace  /Users/aishwaryadodmani/Desktop/myLatestApp
+ Info | datasourceDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Data source DB initialized
+ Info | dsActionsDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Data source actions DB initialized
+ Info | dsAttributesDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Data source attributes DB initialized
+ Info | dsActionsMoreDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Data source actions More DB Initialized
+ Info | appDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | App DB initialized
+ Info | settingsDB | init | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | SettingsDB initialized
+Success | projectHandler | loadProjectDatabase | Wed Jun 03 2020, 15:42:41 GMT+0530 (India Standard Time) | Initialized all the DBs
+ Info | ImportExportConfig | importConfiguration | Wed Jun 03 2020, 15:42:43 GMT+0530 (India Standard Time) | Imported project configuration successfully
+ Info | BuilderEditor | saveFile | Wed Jun 03 2020, 15:42:56 GMT+0530 (India Standard Time) | saved file /Users/aishwaryadodmani/Desktop/myLatestApp/ionic/src/pages/home/home.css
