@@ -5,7 +5,7 @@ here u go no merge conflict for this
 <<<<<<< HEAD
 @C
 =======
-@Component({
+@Component({dfsccxdvfbfb
   selector: "page-home",
 >>>>>>> 3bdd5cb0d513090720c7dfed51caccfbe8bccdcf
   templateUrl: "home.html"
